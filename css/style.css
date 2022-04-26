@@ -55,3 +55,15 @@ nav{
 
 }
 
+.nav-items li a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.nav-items li a:hover{
+    /* a hover é o passar do mouse, seja cor, animação etc */
+    color: rgb(51, 73, 218);
+
+
+}
