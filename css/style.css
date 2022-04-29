@@ -5,7 +5,6 @@ body,textarea{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 h1, h2, h3{
@@ -52,7 +51,6 @@ nav{
     /* transformar as letras das palavras em minusculas, maiusculas ou a primeira maiuscula */
     text-transform: uppercase; 
     margin-left: 25px;
-
 }
 
 .nav-items li a{
@@ -64,6 +62,83 @@ nav{
 .nav-items li a:hover{
     /* a hover é o passar do mouse, seja cor, animação etc */
     color: rgb(51, 73, 218);
-
-
 }
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+    color: fff;
+}
+
+.default-btn:hover{
+    background-color: #77e6a3;
+    color: fff;
+}
+
+/* main banner */
+
+.main-banner{
+    /* papel de parede da pagina, background size cover define a imagem dentro do box adaptando, 
+    e depois colocar o position vai deixar no centro, ou da direita para esquerda etc  */
+    background-image: url('../img/mainbanner.png');
+    padding: 10em 0;
+    background-position: center;
+    background-size: cover;
+    /* position absolute ou relative */
+    position: relative;
+}
+
+.main-banner h1, .main-banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
+
+/* especialidades */
+
+.specialties-container{
+    padding: 5em 0;
+}
+
+.specialties-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.specialties-container ul li{
+    /* flex = grow shrink basis */
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt{
+    color: #2cc76a;
+}
+
+.fa-rocket{
+    color: red;
+}
+
+.fa-comments{
+    color: orange;
+}
+
